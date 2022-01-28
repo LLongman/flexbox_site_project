@@ -1,0 +1,47 @@
+/* Global styles */
+
+html {
+    background-color: blanchedalmond;
+    font-size: 16px;
+}
+
+/* html element styles */
+
+nav {
+    font-size: 0.75rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+/* display styles */
+
+.navbar {
+    display: inline-flex
+}
+
+.title {
+    display: flex;
+}
+
+.mission {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+.footnav {
+    display: flex;
+}
+
