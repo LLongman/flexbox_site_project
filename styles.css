@@ -62,15 +62,15 @@ img {
 }
 
 .product-image-container {
-    height: 200px;
+    height: 175px;
     overflow: hidden;
 }
 
 .product-image {
-    max-width: 100%;
+    max-width: 300px;
     width: auto;
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
 }
 
 .footnav {
