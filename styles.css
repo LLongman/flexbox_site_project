@@ -73,7 +73,33 @@ img {
     bottom: 30px;
 }
 
+.staff {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 250px;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.staff-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.staff-image-container {
+    overflow: hidden;
+}
+
+.staff-image {
+    max-width: 200px;
+    width: auto;
+    position: relative;
+    
+}
+
 .footnav {
     display: flex;
 }
-
