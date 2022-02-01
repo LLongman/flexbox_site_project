@@ -1,18 +1,21 @@
 /* Global styles */
 
 html {
-    background-color: blanchedalmond;
+    background-color: rgb(202, 212, 224);
     font-size: 16px;
+    font-family: "Titillium Web", sans-serif;
 }
 
 /* html element styles */
 
 nav {
     font-size: 1rem;
+    
 }
 
 h1 {
     font-size: 4rem;
+    font-weight: 700
 }
 
 h2 {
@@ -91,6 +94,7 @@ img {
 
 .staff-image-container {
     overflow: hidden;
+    height: 200px;
 }
 
 .staff-image {
