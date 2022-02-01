@@ -8,7 +8,7 @@ html {
 /* html element styles */
 
 nav {
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 
 h1 {
@@ -44,13 +44,6 @@ img {
     flex-direction: column;
 }
 
-.product-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    gap: 1rem;
-}
-
 .product {
     display: inline-flex;
     flex-direction: column;
@@ -59,6 +52,25 @@ img {
     min-width: 300px;
     max-width: 400px;
 
+}
+
+.product-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.product-image-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+.product-image {
+    max-width: 100%;
+    width: auto;
+    position: relative;
+    bottom: 20px;
 }
 
 .footnav {
