@@ -53,6 +53,15 @@ img {
     display: flex;
     flex-direction: column;
     background-image: url("media/winner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    align-items: center;
+}
+
+.mission p {
+    margin: 0;
 }
 
 .product {
