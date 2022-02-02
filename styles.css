@@ -10,7 +10,11 @@ html {
 
 nav {
     font-size: 1rem;
-    
+    position: fixed;
+    width: 100%;
+    background-color: rgb(203, 207, 228);
+    border-bottom: 1px solid blue;
+    opacity: 0.5;
 }
 
 h1 {
@@ -34,7 +38,9 @@ img {
 
 .navbar {
     display: flex;
-    position: fixed;
+    
+    list-style-type: none;
+    justify-content: space-around;
 }
 
 .title {
