@@ -123,4 +123,8 @@ img {
 
 .footnav {
     display: flex;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    justify-content: space-between;
 }
