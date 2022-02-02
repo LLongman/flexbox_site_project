@@ -52,6 +52,7 @@ img {
 .mission {
     display: flex;
     flex-direction: column;
+    background-image: url("media/winner.jpg");
 }
 
 .product {
